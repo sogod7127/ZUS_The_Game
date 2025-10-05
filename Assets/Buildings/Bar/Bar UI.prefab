@@ -259,7 +259,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4202012162394560829}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BarUI, Assembly-CSharp
         m_MethodName: SpendNight
         m_Mode: 1
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.05882353, g: 0.09019608, b: 0.16470589, a: 0.6862745}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -360,7 +360,6 @@ GameObject:
   - component: {fileID: 2753294588391764849}
   - component: {fileID: 3173032657952835439}
   - component: {fileID: 2204076705297977229}
-  - component: {fileID: 4202012162394560829}
   m_Layer: 5
   m_Name: Bar UI
   m_TagString: Untagged
@@ -451,23 +450,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4202012162394560829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4848567272562418121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4323cc94c6723fc4a8cbbbbb86589cbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  social: {fileID: 11400000, guid: 82b0a532a5b38c242bc8608df6d23035, type: 2}
-  money: {fileID: 11400000, guid: 1926e8d00ce792b40a2d675c23cbb0b8, type: 2}
-  married: {fileID: 11400000, guid: a027e0cfaee7c4045a8892083bbadb61, type: 2}
-  button: {fileID: 5854153034140048684}
-  girlfriendChance: 0.52
 --- !u!1 &8953011783374461701
 GameObject:
   m_ObjectHideFlags: 0
