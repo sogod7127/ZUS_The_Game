@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2e050453f9df340ba74d9c0a82d1d2, type: 3}
+  m_Name: Social Relations
+  m_EditorClassIdentifier: 
+  name: Social Relations
+  icon: {fileID: 3333979190292415976, guid: 55fdfa65f38b55b4994ddda6ab5211ef, type: 3}
